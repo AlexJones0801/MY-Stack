@@ -1,0 +1,39 @@
+#parent {
+    height: 500px;
+    width: 900px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+#parent:hover .tran {
+    margin-left: 800px;
+    transform: rotate(800deg);
+    /* border-radius: 50%; */
+}
+
+.tran {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+#one {
+    background-color: rgb(180, 18, 255);
+    transition-timing-function: ease-in-out;
+}
+#two {
+    background-color: rgb(18, 255, 236);
+    transition-timing-function: cubic-bezier(0.68, 0.55, 0.265, 0.55);
+}
+#three {
+    background-color: rgb(53, 255, 18);
+    transition-timing-function: ease;
+}
+#four {
+    background-color: rgb(255, 74, 18);
+    
+}

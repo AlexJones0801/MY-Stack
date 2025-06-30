@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+}
+
+#parent {
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(20, 16, 15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#middle {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: orangered;
+    margin-left: 50px;
+}
+span {
+    color: white;
+}
+
+a {
+    color: white;
+    background-color: orange;
+    margin-right: 50px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}

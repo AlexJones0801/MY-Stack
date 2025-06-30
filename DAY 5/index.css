@@ -1,0 +1,37 @@
+#parent {
+  height: 400px;
+  width: 80vw;
+  border: 3px solid red;
+  display: flex;
+  margin: 80px auto;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; by default row */
+  /* flex-direction: row-reverse; */
+  /* justify-content: end; */
+   /* justify-content: center; */
+/*    justify-content: space-around;
+   justify-content: space-between; */
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+#one {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(180,18,255);
+}
+#two {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(18,255,236);
+}
+#three {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(53,255,18);
+}
+#four {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255,74,18);
+}

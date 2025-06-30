@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Parent {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  background-color: ghostwhite;
+}
+
+.Parent:hover{
+  transition: 2s;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.Parent:hover #div-B {
+  backface-visibility: hidden;
+}
+.Parent:hover #div-A {
+  transform: rotateY(180deg);
+}
+
+#div-A {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  background-color: red;
+}
+
+#div-B img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#div-B {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+}

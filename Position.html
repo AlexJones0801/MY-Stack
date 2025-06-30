@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <!-- by default position is static
+  left right top bottom not apply on static
+  -->
+        <!-- relative position move from its initial position to called position 
+  -->
+        <!-- absolute position creates a virtual screen that move up word which leave empty space so the green hides behind blue and it choose from parent
+  -->
+        <style>
+            div {
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+            }
+            div:nth-of-type(1) {
+                background-color: red;
+                position: absolute;
+                top: 208px;
+            }
+            div:nth-of-type(2) {
+                background-color: #ff8500;
+            }
+            div:nth-of-type(3) {
+                background-color: blue;
+                position: relative;
+                top: 100px;
+            }
+            div:nth-of-type(4) {
+                background-color: #00d7ed;
+                position: absolute;
+                top: 208px;
+            }
+            div:nth-of-type(5) {
+                background-color: green;
+            }
+
+            #parent {
+                border: 4px solid #c500ff;
+                position: relative;
+                width: 300px;
+                height: 300px;
+                top: 250px;
+            }
+            #child {
+              width: 100px;
+              height: 100px;
+              background-color: black;
+              position: absolute;
+              top: 100px;
+              left: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div id="parent">
+            <div id="child"></div>
+        </div>
+    </body>
+</html>

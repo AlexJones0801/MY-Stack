@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(9, 11, 8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Ct {
+    color: rgb(213, 64, 0);
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#login {
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 98, 36);
+    margin-right: 40px;
+}
+
+#mid a {
+  margin: 10px;
+}
